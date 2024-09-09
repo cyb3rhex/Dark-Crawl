@@ -1,0 +1,135 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Dark Crawler/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.65",
+          "Microsoft.Web.WebView2": "1.0.2739.15",
+          "Selenium.WebDriver": "4.24.0",
+          "Selenium.WebDriver.ChromeDriver": "128.0.6613.11900",
+          "Microsoft.Web.WebView2.Core": "1.0.2739.15",
+          "Microsoft.Web.WebView2.WinForms": "1.0.2739.15",
+          "Microsoft.Web.WebView2.Wpf": "1.0.2739.15"
+        },
+        "runtime": {
+          "Dark Crawler.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.65": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.65.0",
+            "fileVersion": "1.11.65.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.2739.15": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.2739.15"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.2739.15"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.2739.15"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.24.0": {
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/128.0.6613.11900": {},
+      "Microsoft.Web.WebView2.Core/1.0.2739.15": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.2739.15",
+            "fileVersion": "1.0.2739.15"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.WinForms/1.0.2739.15": {
+        "runtime": {
+          "Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.2739.15",
+            "fileVersion": "1.0.2739.15"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Wpf/1.0.2739.15": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.2739.15",
+            "fileVersion": "1.0.2739.15"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dark Crawler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.65": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Skse4MVlRcHHyP88x+v/uQrMxTPaBIwQodiQ/y59jxs8vHlqTR5M3jt5Wk+csYFnR4rX6I4ndqDji2M8p9kAzw==",
+      "path": "htmlagilitypack/1.11.65",
+      "hashPath": "htmlagilitypack.1.11.65.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.2739.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hZg7vHWBg4RIiK3rhkNqX3hcBqqoVXVrrO2BVrVOiSmEgfLa7lY64G1tWh2VY84MfHIFLCAQNwn3Rwvu+ICHyw==",
+      "path": "microsoft.web.webview2/1.0.2739.15",
+      "hashPath": "microsoft.web.webview2.1.0.2739.15.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.24.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pwpNZQPCtDFH07nCliNMT/YRR5NhlPmxsrh/9e7PQsI/TfSUBy/VEdA6QwDY2WybzVZ6SlYSu1bv3cWKkiN8/w==",
+      "path": "selenium.webdriver/4.24.0",
+      "hashPath": "selenium.webdriver.4.24.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/128.0.6613.11900": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IveLZenm7xMa45V7J+oEm9mPZiJvKx7TrsdxgfOy+huBOliOwjLSNNi27/7PHZF9qPiDACaH87Bkb4vbviuFHg==",
+      "path": "selenium.webdriver.chromedriver/128.0.6613.11900",
+      "hashPath": "selenium.webdriver.chromedriver.128.0.6613.11900.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2.Core/1.0.2739.15": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.WinForms/1.0.2739.15": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Wpf/1.0.2739.15": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
